@@ -5,32 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo Homepage</title>
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-    <div class="header">
-        <div class="header-links">
-
+    <header>
+            <div class="header__logo">Header Logo</div>
+            <ul class="header__links">
+                    <li>header link one</li>
+                    <li>header link two</li>
+                    <li>header link three</li>
+            </ul>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="hero__content">
+                <div class="headline hero__headline">This website is awesome</div>
+                <div class="hero__text">This website has some substext that goes here under the main title. It's a smslaller font and the colour is lower contrast</div>
+                <button class="cta-btn cta--hero">Sign up</button>
+            </div>
+            <div class="hero__image">
+                <img src="./static/nightscene.jpg" alt="pink abstract image" />
+            </div>
         </div>
-        <div class="feature">
-
+        <div class="info">
+            <div class="headline info__headline">Some random information.</div>
+            <div class="info__cards">
+                <div class="info__card">
+                    <div class="info__card-box"></div>
+                    <div class="info__card-text">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="info__card">
+                    <div class="info__card-box"></div>
+                    <div class="info__card-text">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="info__card">
+                    <div class="info__card-box"></div>
+                    <div class="info__card-text">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="info__card">
+                    <div class="info__card-box"></div>
+                    <div class="info__card-text">this is some subtext under an illustration or image</div>
+                </div>
         </div>
-    </div>
-    <div class="info-cards">
-        <div class="info-header">Some random information.</div>
-        <div class="cards">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
+        <div class="quote">
+            <div class="quote__text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space
+                or maybe people will actually read it. Who knows? All I know is it looks nice.
+            </div>
+            <div class="quote__author">Thor, God of Thunder</div>
         </div>
-    </div>
-    <div class="inspo-quote">
-        <div class="quote-text"></div>
-        <div class="quote-author"></div>
-    </div>
-    <div class="cta"></div>
-    <div class="footer">
-
-    </div>    
+        <div class="cta">
+            <div class="cta__container">
+                <div class="cta__content">
+                    <div class="headline cta__headline">Call to action! It's time!</div>
+                    <div class="cta__text">Sign up for our product by clicking that button right over there!</div>
+                </div>
+                <button class="btn cta--btn">Sign up</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__text">Copyright &copy; The Odin Project 2022</div>
+    </footer>
 </body>
 </html>
