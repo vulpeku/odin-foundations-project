@@ -1,1 +1,1 @@
-# odin-foundations-project
+# Foundations Project - Odin Project
