@@ -21,21 +21,19 @@ header {
     display: flex;
     list-style: none;
     gap: 18px;
-    font-size: 18px;
+    font-size: 1.3vw;
     color: #E5E7EB
 }
 
 .header__logo {
     font-weight: 900;
-    font-size: 24px;
+    font-size: 2vw;
 }
 
 .hero {
     background-color: #1F2937;
-    /*! max-height: 20%; */
     padding: 7% 15%;
     display: flex;
-    /*! align-items: stretch; */
     gap: 4%;
 }
 
@@ -43,7 +41,6 @@ header {
     flex: 40 1 0;
     display: flex;
     flex-direction: column;
-    /*! gap: 27%; */
     max-height: 35vh;
     justify-content: space-between;
     align-content: safe;
@@ -51,20 +48,18 @@ header {
 
 .hero__image{
     flex: 50 1 0;
-    /*! display: flex; */
-    /*! box-sizing: unset; */
     max-height: 35vh;
 }
 
 .hero__headline {
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 3.3vw;
     line-height: 1;
 }
 
 .hero__text {
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 1.4vw;
 }
 
 .hero__image img {
@@ -78,11 +73,11 @@ header {
     font-weight: 500;
     border-style: none;
     padding: 2% 6%;
-    border-radius:  8px;
+    border-radius:  1.2vh;
     
+    font-size: 1vw;
 }
 .cta--hero {
     align-self: flex-start;
     margin: 1% 0%;
-    /*! justify-items: center; */
 }
