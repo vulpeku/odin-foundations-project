@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -15,13 +14,13 @@ header {
     justify-content: space-between;
     color: #F9FAF8;
     align-items: center;
+    padding: 0.5% 15%;
 }
 
 .header__links {
     display: flex;
     list-style: none;
     gap: 18px;
-    margin: 10px;
     font-size: 18px;
     color: #E5E7EB
 }
@@ -33,36 +32,34 @@ header {
 
 .hero {
     background-color: #1F2937;
-    max-height: 60%;
+    /*! max-height: 20%; */
+    padding: 7% 15%;
     display: flex;
-    align-items: center;
-    padding: 5%;
-    gap: 10%;
-}
-.hero__image {
-    flex: 1 1 0;
+    /*! align-items: stretch; */
+    gap: 4%;
 }
 
-.hero__image img{
-    max-width: 100%;
-}
-
-.hero__content {
-    flex: 1 1 0;
+.hero__content{
+    flex: 40 1 0;
     display: flex;
     flex-direction: column;
+    /*! gap: 27%; */
+    max-height: 35vh;
     justify-content: space-between;
-    gap: 20%;
+    align-content: safe;
 }
 
-.hero__content > * {
-    padding: 20px;
-
+.hero__image{
+    flex: 50 1 0;
+    /*! display: flex; */
+    /*! box-sizing: unset; */
+    max-height: 35vh;
 }
 
 .hero__headline {
     color: #F9FAF8;
     font-size: 48px;
+    line-height: 1;
 }
 
 .hero__text {
@@ -70,6 +67,22 @@ header {
     font-size: 18px;
 }
 
-* {
-    border: 1px solid red;
-} 
+.hero__image img {
+    max-height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.cta-btn{
+    background: #3882f6;
+    color: #fff;
+    font-weight: 500;
+    border-style: none;
+    padding: 2% 6%;
+    border-radius:  8px;
+    
+}
+.cta--hero {
+    align-self: flex-start;
+    margin: 1% 0%;
+    /*! justify-items: center; */
+}
