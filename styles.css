@@ -6,6 +6,7 @@ body {
 
 .headline {
     font-weight: 900;
+    font-size: 4vh;
 }
 
 header {
@@ -21,7 +22,7 @@ header {
     display: flex;
     list-style: none;
     gap: 18px;
-    font-size: 1.3vw;
+    font-size:2.8vh;
     color: #E5E7EB
 }
 
@@ -67,17 +68,113 @@ header {
     width: 100%;
     object-fit: cover;
 }
-.cta-btn{
+.btn{
     background: #3882f6;
     color: #fff;
     font-weight: 500;
     border-style: none;
-    padding: 2% 6%;
+    padding: 1vh 2vh;
     border-radius:  1.2vh;
     
     font-size: 1vw;
 }
-.cta--hero {
+.hero-btn {
     align-self: flex-start;
     margin: 1% 0%;
+}
+
+.info__headline{
+    font-size: 2.3vw;
+    text-align: center;
+    padding: 4%;
+}
+
+.info__cards{
+    display: flex;
+    padding: 0% 20% 5% 20%;
+    height: 40vh;
+    gap: 6%;
+}
+
+.info__card{
+    display: flex;
+    gap: 5%;
+    flex-direction: column;
+}
+
+.info__card-box{
+    border: 10px solid #3882f6;
+    border-radius: 4vh;
+}
+.info__card-box:after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.info__card-text{
+    text-align: center;
+    color: #1f2937;
+    font-size: 2.5vh;
+}
+
+.quote{
+    background: #E5E7EB;
+    padding: 10% 20%;
+}
+
+.quote__text{
+    font-size: 6vh;
+    font-style: italic;
+    color: #1F2937;
+    /*! text-align: center; */
+}
+
+.quote__author{
+    float: right;
+    font-size: 3.5vh;
+    font-weight: bold;
+
+}
+.quote__author:before{
+    content: "- "
+}
+
+.cta{
+    padding: 12vh 15vw;
+}
+
+.cta__container{
+    background: #3882f6;
+    display: flex;
+    border-radius: 2vh;
+    padding: 8vh 15vh;
+    justify-content: space-around;
+    font-size: 2.4vh;
+    align-items: center;
+    /*! gap: 26vh; */
+}
+
+.cta-btn{
+    /*! padding: -22vh; */
+    border: 3px solid #F9FAF8;
+    height: 50%;
+    width: 20%;
+}
+
+.cta__headline{
+    color: #F9FAF8;
+}
+.cta__text{
+    color:#E5E7EB;
+}
+
+footer{
+    background: #1F2937;
+    padding: 6vh;
+}
+
+.footer__text{
+    text-align: center;
+    color: #E5E7EB;
 }
